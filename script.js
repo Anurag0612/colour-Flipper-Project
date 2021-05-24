@@ -7,14 +7,10 @@ const alphabets = "abcdef";
 function getRandomNumber() {
 	return numbers[Math.floor(Math.random() * numbers.length)]
 }
-//console.log(getRandomNumber())
 
 function getRandomAlphabet() {
 	return alphabets[Math.floor(Math.random() * alphabets.length)]
 }
-
-console.log(getRandomNumber());
-console.log(getRandomAlphabet());
 
 function getRandom() {
 	let arr = [];
